@@ -37,7 +37,7 @@ Le patchGAN est formé de **quatres couches convolutionnelles** qui divisent par
 
 <img src="https://github.com/jordangyte/CycleGAN/blob/main/result.png?raw=true" height="450" />
 Ci-dessus, trois exemples d'images générées dans le style des peintures de Monet. 
-La métrique d'évaluation est la Memorization-informed Fréchet Inception Distance (MiFID) qui est une modification de la Fréchet Inception Distance. Plus cette dernière est faible, meilleur est la génération. Mon score est de **43.46** et je suis classé 43ème sur 155 au 13/11/2020 (top 28%). 
+La métrique d'évaluation est la Memorization-informed Fréchet Inception Distance (MiFID) qui est une modification de la Fréchet Inception Distance. Plus cette dernière est faible, meilleur est la génération. Mon score est de **39.9** et je suis classé 18ème sur 148 au 14/11/2020 (top 13%). 
 
 Kaggle restreint l'usage de ses TPU à 3h d'affilés maximum, ce qui limite l'apprentissage.
 
@@ -51,7 +51,7 @@ Voici quelques expérimentations que j'ai pu tester au cours de ce projet :
 * Ajouter des "skip-connexions" [+]
 * Batchsize égal à 1 (SGD) [+-]
 * Baisse du taux d'apprentissage après un certain nombre d'itérations [+-]
-* Rognage à 128x128 avec ResNet 6 [+-]
+* Rognage à 128x128 avec ResNet 6 [-]
 
 ## Références
 
